@@ -19,13 +19,10 @@ func show_game_over():
 	$StartButton.show()
 
 func update_score(score):
-	$ScoreLabel.text = str(score)
-
-
+	$ScoreLabel.text = String(score)
 
 func _on_MessageTimer_timeout():
 	$Message.hide()
-
 
 
 func _on_StartButton_pressed():
